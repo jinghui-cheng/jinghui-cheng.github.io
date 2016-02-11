@@ -1,0 +1,128 @@
+A knowledge-base about game use in BI therapy sessions
+
+The knowledge-base is comprised of more than 700 game therapy cases from therapists' accounts of game use that are collected from over 400 brain injury rehabilitation sessions. Each game therapy case describes a particular situation in which a game is used with a patient to address certain therapeutic goals. See the figure below for summary attributes of a case.
+
+Each case contains information about (1) variables concerning patient abilities and play preferences, (2) therapy session goals, (3) information about the game used in the therapy session (e.g. mechanics and requirements), and (4) session outcomes (e.g. the game’s effectiveness on the therapeutic goals and the level of player enjoyment).
+To construct the knowledge-base of game therapy cases, we collaborated with therapists at two rehabilitation hospitals in the Chicago area and conducted diary studies in which therapists recorded detailed information about therapy sessions and evaluated the game used. See the paper diary form we used.
+
+
+A decision and information sharing tool to support game selection
+
+We created a decision and information sharing tools to help therapists make evidence-based choices of game, customized for each patient. The tool adopts a Case-Based Reasoning methodology to provide game recommendations for user inputs about therapy goals and patient attributes. Try the tool here:
+
+We coded the backend algorithm in Java and built a responsive interface using the Bootstrap framework. See the image below for the result screens. Follow the link to watch a demo video of the tool. The tool can be accessed at http://tinyurl.com/TherapyGameR.
+
+Screenshots of the result screens of the 'Choose a Game' tool on different devices.
+We followed a user-driven approach to create and evaluate the tool through multiple but overlapping phases:
+
+Therapist interviews that exposed the needs and requirements of a tool for choosing game for brain injury rehabilitation.
+Observations of therapy sessions to understand the context of game use in therapy.
+Usability studies to establish the user interaction of the tool.
+User evaluation of a working prototype which also allowed therapists contribute to strengthen the game recommendations and add to the shared information.
+
+Therapy-centered game design patterns
+
+Design patterns, originating from the work of Christopher Alexander, aim to provide a common language to support the creative work of designers by documenting successful solutions that have addressed recurring design problems. In the field of serious game (i.e. game designed to support an external purpose), game design patterns were advocated as a communication tool that supports the collaboration among team members who have diverse backgrounds.
+
+Our therapy-centered game design patterns can serve as a common language that supports the communication and mutual understanding between therapists and game designers in the game design process. We are following a data-driven approach to create two sets of patterns for game design for brain injury rehabilitation:
+
+The efficacy-centered patterns that examine game’ effectiveness at addressing therapeutic goals for brain injury rehabilitation. See the following for a list of efficacy-centered patterns.
+Category	patterns name	Main therapy goal(s)
+Physical mechanics	Change Hands	Bilateral hand use
+Integrated Standing Duration	Standing
+Moving Different Body Parts	Insight into deficits
+Self-paced Weight Shifting	Dynamic balance & Weight shifting
+Weight Shifting to the Extremes	Weight shifting
+Game rules	Fine Control	Weight shifting & Balance
+Minimalist Task	Attention/concentration
+Optimal/adjustable Pace	Processing Speed
+Randomized Events	Hand-eye coordination
+Step by Step	Sequencing & Command following
+Perception	Focus and Distraction	Standing, Endurance
+Three-dimensional Space	Visual spatial abilities
+Social	Collocated Multiplayer	Socialization
+Turn-based Multiplayer	Turn taking
+The experience-centered patterns that examine positive player (patient) experience in game for brain injury therapy. See the following for a list of experience-centered patterns.
+Category	patterns name
+Challenge	Multiplayer Competition
+Optional High Level Challenge
+Learn and Master	Adjustable Speed
+Gentle Challenge Ramp
+Minimal Level of Distraction
+Pick Up and Play
+Progress	Advancing
+Optimistic Performance Evaluation
+Theme	Age Appropriate Theme
+Enabling Theme
+Familiar Theme
+We are currently editing the patterns documents. See http://tinyurl.com/Efficacypatterns for a preliminary document of Efficacy-Centered patterns.
+
+
+A information tool to support therapy-centered game design
+
+Design patterns alone do not ensure good design. Research has indicated that presenting patterns in a way that facilitates patterns choosing and context awareness can greatly promote the effectiveness of using the patterns. In addition, game designers of brain injury rehabilitation need to consider other factors such as patients’ abilities, patient preferences, and context of use (e.g. a rehabilitation gym that is shared by many therapists and patients) in order to design appropriate game for target users.
+
+We are creating an information tool that allows game designers access the therapy-centered game design patterns and the corresponding data in order to support their creative work in designing game for brain injury rehabilitation. We are following a user-centered approach to create and evaluate this tool through multiple but overlapping phases:
+
+Game designer interviews that explore designers' perception about therapy-centered game design patterns and elicit initial user requirements. We have interviewed 11 professional game designers and are currently analyzing the data.
+Usability studies to establish the user interaction of the tool. We are iterating the wireframes within our team and preparing for the usability studies.
+Experimental evaluation to explore the efficacy of the therapy-centered game design patterns and the design tool.
+
+We evaluated the Kano model to directly incorporate user
+opinion and perception to prioritize usability issues in two
+user studies for an enterprise application. Our analysis
+shows that the Kano measure of delight versus frustration
+provided richer and more actionable information when compared
+to traditional usability metrics such as task times,
+task success, and the ranking of usability issues based on
+severity. Additionally, the participant responses showed a
+strong correlation between the self-stated importance rating
+of fixing a usability issue and the impact scores of the same
+issue based on the Kano method. Based on these findings,
+we recommend that product design practitioners incorporate
+end-user delight and frustration with the Kano method
+to help prioritize usability issues.
+enterprise software industry regularly document and prioritize
+usability issues. Traditionally, these design teams
+determine the priority of usability issues based on the issue
+severity and frequency as noted in user studies [9].
+user-facing teams, such as Product, Marketing, and
+Engineering, then harness this prioritized list to act on
+recommendations for improving user experience and ensuring
+product success. There are two limitations of this
+user research approach. First, it fails to directly incorporate
+user perception and satisfaction about the prioritized
+list; for example, what are the top five issues that
+users want to be fixed in the product. Second, as the
+prioritized list of usability issues gets longer, the user
+facing teams find it challenging to act on issues that result
+in maximal user delight while drastically reducing user
+frustration.
+Current approaches to incorporate users’ perception of
+product usability issues include: (1) product usage telemetry
+logs to evaluate frequency of use for various product
+features, (2) user meetings and on-site visits to gather
+requirements for product roadmaps, and (3) priority group
+methods that incorporate stakeholders’ ratings for the perceived
+impact of features [1, 11]. However, each of these
+approaches still has limitations in providing rich and reliable
+information about user value and satisfaction.
+For example, telemetry logs only reveal behavioral data but
+ignores user opinion and perceptions; user meetings
+are usually costly and prone to misinterpretation of
+user needs; and researchers have found that the priority
+group method is ineffective at differentiating product
+features that would truly add user value [5].
+In this paper, we use Kano’s model of user satisfaction
+to investigate this relationship between user satisfaction
+and maturity of the product’s functionality [2, 6]. We
+evaluate the Kano model as a complementary tool to capture
+information about user opinion and perception
+for prioritizing issues identified in usability studies for Platfora,
+an enterprise-facing big data analytics platform that
+transforms raw data in Hadoop (or in other data silos) into
+interactive business intelligence [10]. More specifically, we
+incorporated the Kano method in usability baseline studies
+for Data Visualization and Data Management components
+of Platfora to help user facing teams better balance
+user delight with user frustration

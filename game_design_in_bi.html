@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Jinghui Cheng | User Researcher</title>
+
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/maincss.css" rel="stylesheet">
+		<link href="css/cv.css" rel="stylesheet">
+		
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    	<!--[if lt IE 9]>
+	   		   	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	      		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    	<![endif]-->
+  	</head>
+  	<body>
+  		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-responsive-collapse" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">
+							<i class="fa fa-home"></i> &nbsp;Jinghui Cheng
+						</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="navbar-responsive-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active" id="projects-dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+									<i class="fa fa-wrench"></i> &nbsp;Research and Projects <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="game_use_in_bi.html">Supporting Game Use for Brain Injury Rehabilitation</a></li>
+									<li><a href="game_design_in_bi.html">Supporting Game Design for Brain Injury Rehabilitation</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="kano.html">Kano Model for Prioritizing Usability Issues</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="culture-and-gaming.html">Cultural Difference in Gaming Preferences</a></li>
+									<li><a href="support-deaf-students.html">Support for Deaf Students in a Hearing School</a></li>
+								</ul>
+							</li>
+							<li><a href="cv.html"><i class="fa fa-file"></i> &nbsp;CV</a></li>
+							<li><a href="#"><i class="fa fa-user"></i> &nbsp;Personal</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+  			
+			<div class="row main-content">		
+				<div class="col-md-3">
+					<div class="sidebar hidden-print hidden-xs hidden-sm">
+						<ul class="nav">
+							<li>
+								<div class="nav-category"><i class="fa fa-flask"></i> &nbsp;Academia Projects</div>
+								<ul class="nav">
+									<li><a href="game_use_in_bi.html">Supporting Game Use for Brain Injury Rehabilitation</a></li>
+									<li class="active"><a href="game_design_in_bi.html">Supporting Game Design for Brain Injury Rehabilitation</a></li>
+								</ul>
+							</li>
+							<li>
+								<div class="nav-category"><i class="fa fa-gears"></i> &nbsp;Industry Projects</div>
+								<ul class="nav">
+									<li><a href="kano.html">Kano Model for Prioritizing Usability Issues</a></li>
+								</ul>
+							</li>
+							<li>
+								<div class="nav-category"><i class="fa fa-book"></i> &nbsp;Other Projects</div>
+								<ul class="nav">
+									<li><a href="culture-and-gaming.html">Cultural Difference in Gaming Preferences</a></li>
+									<li><a href="support-deaf-students.html">Support for Deaf Students in a Hearing School</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>				
+				</div>
+				
+				<div class="col-xs-12 col-md-9">
+					<h3 style="margin-top:0px;margin-bottom:20px;">Supporting Game Design for Brain Injury Rehabilitation</h3>
+					<em style="position:relative; top:-15px;">This project is on-going and this page will be updated regularly.</em>
+				</div>
+				<div class="col-xs-12 col-md-4 pull-right">
+					<div id="carousel-slides" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-slides" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-slides" data-slide-to="1"></li>
+							<li data-target="#carousel-slides" data-slide-to="2"></li>
+							<li data-target="#carousel-slides" data-slide-to="3"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img src="img/game-design-in-bi/slide-eff-pattern-gen.png" alt="Data analysis and pattern generation.">
+							</div>
+							<div class="item">
+								<img src="img/game-design-in-bi/slide-efficacy-patterns.png" alt="List of efficacy-centered patterns">
+							</div>
+							<div class="item">
+								<img src="img/game-design-in-bi/slide-eff-pattern-rel.png" alt="Relationship graph among efficacy-centered patterns">
+							</div>
+							<div class="item">
+								<img src="img/game-design-in-bi/slide-experience-patterns.png" alt="List of experience-centered patterns">
+							</div>
+						</div>
+						
+						<!-- Wrapper for popup -->
+						<div id="popupSlide"></div>
+
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-slides" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-slides" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+					<br>
+				</div>
+				<div class="col-xs-12 col-md-5">
+					<div class="row section">
+						<div class="sectionHeader">
+							<h4>Motivation</h4>
+						</div>
+						<div class="sectionContent">
+							<p>Brain injury (BI) is a major health issue in many societies. It can be challenging to motivate patients who have had a BI to engage in repetitive activities needed for BI rehabilitation. As a result, it is common for therapists use games to help motivate patients.</p>
+							<p>Many researchers and practitioners have created games that are designed specifically for BI rehabilitation. However, most of the current games/systems are either experimental or if commercial (e.g. Jintronix and MIRA) have not reached a high level of diffusion. A common critique of games designed to address BI rehabilitation was that they are not engaging; one important reason cited for a lack of engagement was the oft-limited communication and mutual understanding among game designers and subjective matter experts (e.g., therapists) when creating these games.</p>
+						</div>
+					</div>
+					<div class="row section">
+						<div class="sectionHeader">
+							<h4>Research Goals and Outcomes</h4>
+						</div>
+						<div class="sectionContent">
+							<p><strong>Therapy-centered game design patterns</strong></p>
+							<p><a href="https://en.wikipedia.org/wiki/Design_pattern" target="_blank">Design patterns</a>, originating from the work of Christopher Alexander, aim to provide a common language to support the creative work of designers by documenting successful solutions that have addressed recurring design problems. In the field of serious games (i.e. games designed to support an external purpose), game design patterns were advocated as a communication tool that supports the collaboration among team members who have diverse backgrounds.</p>
+							<p>Our therapy-centered game design patterns can serve as a common language that supports the communication and mutual understanding between therapists and game designers in the game design process. We are following a data-driven approach (leveraging data we gathered from therapists' accounts of game use) to create two sets of patterns for game design for brain injury rehabilitation:</p>
+							<ol>
+								<li>The <strong>efficacy-centered patterns</strong> that examine games’
+								effectiveness at addressing therapeutic goals for brain injury
+								rehabilitation. See the following for a list of efficacy-centered
+								patterns.
+									<table class="pattern-table">
+										<thead>
+											<tr>
+												<th style="width:20%">Category</td>
+												<th style="width:40%">Pattern name</td>
+												<th style="width:40%">Main therapy goal(s)</td>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="category" rowspan="5">Physical
+												mechanics</td>
+												<td>Change Hands</td>
+												<td>Bilateral hand use</td>
+											</tr>
+											<tr>
+												<td>Integrated Standing Duration</td>
+												<td>Standing</td>
+											</tr>
+											<tr>
+												<td>Moving Different Body Parts</td>
+												<td>Insight into deficits</td>
+											</tr>
+											<tr>
+												<td>Self-paced Weight Shifting</td>
+												<td>Dynamic balance &amp; Weight shifting</td>
+											</tr>
+											<tr>
+												<td>Weight Shifting to the Extremes</td>
+												<td>Weight shifting</td>
+											</tr>
+											<tr>
+												<td class="category" rowspan="5">Game rules</td>
+												<td>Fine Control</td>
+												<td>Weight shifting &amp; Balance</td>
+											</tr>
+											<tr>
+												<td>Minimalist Task</td>
+												<td>Attention/concentration</td>
+											</tr>
+											<tr>
+												<td>Optimal/adjustable Pace</td>
+												<td>Processing Speed</td>
+											</tr>
+											<tr>
+												<td>Randomized Events</td>
+												<td>Hand-eye coordination</td>
+											</tr>
+											<tr>
+												<td>Step by Step</td>
+												<td>Sequencing &amp; Command following</td>
+											</tr>
+											<tr>
+												<td class="category" rowspan="2">Perception</td>
+												<td>Focus and Distraction</td>
+												<td>Standing, Endurance</td>
+											</tr>
+											<tr>
+												<td>Three-dimensional Space</td>
+												<td>Visual spatial abilities</td>
+											</tr>
+											<tr>
+												<td class="category" rowspan="2" style=
+												"border-bottom:solid 1.5pt;">Social</td>
+												<td>Collocated Multiplayer</td>
+												<td>Socialization</td>
+											</tr>
+											<tr>
+												<td style="border-bottom:solid 1.5pt;">Turn-based
+												Multiplayer</td>
+												<td style="border-bottom:solid 1.5pt;">Turn taking</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>The <strong>experience-centered patterns</strong> that examine
+								positive player (patient) experience in games for brain injury therapy.
+								See the following for a list of experience-centered patterns.
+									<table class="pattern-table">
+										<thead>
+											<tr>
+												<th>Category</td>
+												<th>Pattern name</td>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td class="category" rowspan="2">Challenge</td>
+												<td>Multiplayer Competition</td>
+											</tr>
+											<tr>
+												<td>Optional High Level Challenge</td>
+											</tr>
+											<tr>
+												<td class="category" rowspan="4">Learn and Master</td>
+												<td>Adjustable Speed</td>
+											</tr>
+											<tr>
+												<td>Gentle Challenge Ramp</td>
+											</tr>
+											<tr>
+												<td>Minimal Level of Distraction</td>
+											</tr>
+											<tr>
+												<td>Pick Up and Play</td>
+											</tr>
+											<tr>
+												<td class="category" rowspan="2">Progress</td>
+												<td>Advancing</td>
+											</tr>
+											<tr>
+												<td>Optimistic Performance Evaluation</td>
+											</tr>
+											<tr>
+												<td class="category" rowspan="3">Theme</td>
+												<td>Age Appropriate Theme</td>
+											</tr>
+											<tr>
+												<td>Enabling Theme</td>
+											</tr>
+											<tr>
+												<td>Familiar Theme</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+							</ol>
+							<p>We are currently editing the pattern documents. See <a href="http://tinyurl.com/EfficacyPatterns" target="_blank">http://tinyurl.com/EfficacyPatterns</a> for a preliminary document of Efficacy-Centered Patterns.</p>
+							<br>
+							<p><strong>An information tool to support therapy-centered game design</strong></p>
+							<p>Design patterns alone do not ensure good design. Research has indicated that presenting patterns in a way that facilitates pattern choosing and context awareness can greatly promote the effectiveness of using the patterns. In addition, game designers of brain injury rehabilitation need to consider other factors such as patients’ abilities, patient preferences, and context of use (e.g. a rehabilitation gym that is shared by many therapists and patients) in order to design appropriate games for target users.</p>
+							<p>We are creating an information tool that allows game designers access the therapy-centered game design patterns and the corresponding data in order to support their creative work in designing games for brain injury rehabilitation. We are following a user-centered approach to create and evaluate this tool through multiple but overlapping phases:</p>
+							<ol>
+								<li>Game designer <strong>interviews</strong> that explore designers' perception about therapy-centered game design patterns and elicit initial user requirements. We have interviewed 11 professional game designers and are currently analyzing the data.</li>
+								<li><strong>Usability studies</strong> to establish the user interaction of the tool. We are iterating the wireframes within our team and preparing for the usability studies.</li>
+								<li><strong>Experimental evaluation</strong> to explore the efficacy of the therapy-centered game design patterns and the design tool.</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4 pull-right">
+					<p><strong>Related Publications</strong>
+					<span style="font-size:85%">(email me if you would like a copy)</span></p>
+					<ul class="itemize0" style="font-size: 90%">
+						<li class="itemize"><span class="pplb9d-">Cheng,</span><span class="pplb9d-"> J.</span>, Putnam C., and Rusch, D. (2015). Towards Efficacy-Centered Game Design Patterns For
+						 Brain Injury Rehabilitation: A Data-Driven Approach. In <span class="pplri9d-">Proceedings of the Annual ACM Conference</span><span class="pplri9d-">on Conference on Computers and Accessibility, ASSETS ’15 </span>(pp. 291-299). (Acceptance rate: 23%)
+						 <br><a href="doc/ASSETS2015_slides.pdf" target="_blank">Download slides</a> &nbsp; &nbsp; &nbsp; &nbsp;<a href="doc/ASSETS2015_poster.pdf" target="_blank">Download poster</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<footer>
+				<hr>
+				<p class="text-right copyright">&copy; copyright Jinghui Cheng | Updated January 2016
+				| JinghuiCheng [at] gmail [dot] com<p>
+			</footer>
+		</div>
+
+    	<script src="js/jquery.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+    	<script src="js/slidezoom.js"></script>
+  	</body>
+</html>
