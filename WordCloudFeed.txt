@@ -58,7 +58,7 @@ Familiar Theme
 We are currently editing the patterns documents. See http://tinyurl.com/Efficacypatterns for a preliminary document of Efficacy-Centered patterns.
 
 
-A information tool to support therapy-centered game design
+A information tool to Support Designers of Games for Health
 
 Design patterns alone do not ensure good design. Research has indicated that presenting patterns in a way that facilitates patterns choosing and context awareness can greatly promote the effectiveness of using the patterns. In addition, game designers of brain injury rehabilitation need to consider other factors such as patients’ abilities, patient preferences, and context of use (e.g. a rehabilitation gym that is shared by many therapists and patients) in order to design appropriate game for target users.
 
