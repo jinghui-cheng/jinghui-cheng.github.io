@@ -1,3 +1,26 @@
+.navbar-default {
+	background-color: #00227b;
+	color: #fff;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ddd;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #d2d2d2;
+  background-color: transparent;
+}
+
 .itemize{
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -37,8 +60,8 @@
 }
 
 .sidebar .nav>li>.nav-category {
-	display: block;
-	padding: 10px 15px;
+		display: block;
+		padding: 10px 15px;
     font-size: 1.2em;
     color: #000;
     font-weight: 500;
@@ -72,8 +95,9 @@
 
 .sectionHeader{
 	padding: 1px 20px;
-	border-radius: 4px;
-	background-color: #eeeeee;
+	border-radius: 0px;
+	background-color: #07927A;
+	color: #fff;
 }
 
 .sectionContent{
