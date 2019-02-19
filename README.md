@@ -12,3 +12,8 @@ To serve the website:
 ```
     bundle exec jekyll serve
 ```
+
+To build the website:
+```
+    bundle exec jekyll build
+```
