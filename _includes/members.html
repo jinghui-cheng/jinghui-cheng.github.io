@@ -1,0 +1,24 @@
+<div class="members">
+    <h3>members</h3>
+    {% for member in site.members %}
+    <div class="member">
+        <div class="profile">
+            {% if member.link %}
+            <a href="{{ member.link }}" target="_blank">
+            {% endif %}
+                {% if member.img %}
+                <img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" />
+                {% else %}
+                <img src="{{ '/assets/img/nopic.png' | prepend: site.baseurl | prepend: site.url }}"/>
+                {% endif %}
+                <span>
+                    <h1>{{ member.name }}</h1>
+                    <p>{{ member.description }}</p>
+                </span>
+            {% if member.link %}
+            </a>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>

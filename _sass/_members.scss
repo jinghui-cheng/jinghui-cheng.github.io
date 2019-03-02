@@ -1,0 +1,32 @@
+.member {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+    width: 32.9%;
+
+    .profile {
+        overflow: hidden;
+        width: 100%;
+        text-align: center;
+        
+        img {
+            box-shadow: 3px 3px 5px #828282;
+            height: 150px;
+            width: auto;
+            margin: 0;
+        }
+        span {
+            h1 {
+                font-size: 12pt;
+                font-weight: bolder;
+                margin: 5px 0 0 0;
+            }
+
+            p {
+                text-align: left;
+                font-size: 9pt;
+            }
+        }
+    }
+}

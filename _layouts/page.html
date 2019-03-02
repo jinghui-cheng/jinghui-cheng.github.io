@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    {% if page.profile.image %}
+      <div class="profile-header col one right">
+        <img src="{{ page.profile.image | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+      </div>
+    {% endif %}
+    {% if page.display-title %}
+      <h1 class="page-title">{{ page.display-title }}</h1>
+    {% else %}
+      <h1 class="page-title">{{ page.title }}</h1>
+    {% endif %}
+    <h5 class="post-description">{{ page.description }}</h5>
+  </header>
+
+  <article class="post-content {{page.title}} clearfix">
+    {{ content }}
+  </article>
+
+  {% if page.news %}
+    {% include news.html %}
+  {% endif %}
+
+  {% if page.social %}
+    {% include social.html %}
+  {% endif %}
+
+</div>
