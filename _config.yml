@@ -2,11 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 name: Jinghui Cheng, PhD
+title: Jinghui Cheng, PhD
 email: jinghui [dot] cheng [at] polymtl [dot] ca
 description: > # this means to ignore newlines until "url:"
   Jinghui Cheng, PhD
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
 
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
