@@ -6,10 +6,10 @@ display-title: >
   <strong>Jinghui</strong> Cheng
   <div style="font-size:50%; display:inline-block; margin-left:20px;">
       <a href="https://twitter.com/jinghuicheng" target="_blank">
-        <i class="fab fa-twitter" style="color:#1b77ea;"></i>
+        <i class="fab fa-twitter" style="color:#1b77ea;font-size:20px;"></i>
       </a> &nbsp;
       <a href="https://www.linkedin.com/in/jinghuicheng" target="_blank">
-        <i class="fab fa-linkedin" style="color:#0c62a6;"></i>
+        <i class="fab fa-linkedin" style="color:#0c62a6;font-size:20px;"></i>
       </a>
   </div>
 
