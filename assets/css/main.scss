@@ -3,6 +3,9 @@
 ---
 @charset "utf-8";
 
+$break-small: 640px;
+$break-large: 1008px;
+
 
 @import 'variables';
 @import 'media-queries';
