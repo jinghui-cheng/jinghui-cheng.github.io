@@ -1,6 +1,81 @@
 ---
 ---
 
+@inproceedings{Wang2019,
+ author = {Wang, Wenting and Cheng, Jinghui and Guo, Jin L.C.},
+ title = {Usability of Virtual Reality Application Through the Lens of the User Community: A Case Study},
+ booktitle = {Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI EA '19},
+ year = {2019},
+ isbn = {978-1-4503-5971-9},
+ location = {Glasgow, Scotland Uk},
+ pages = {LBW0152:1--LBW0152:6},
+ articleno = {LBW0152},
+ numpages = {6},
+ url = {http://doi.acm.org/10.1145/3290607.3312816},
+ doi = {10.1145/3290607.3312816},
+ acmid = {3312816},
+ arxiv = {1902.07705},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {heuristic evaluation, open source, usability, virtual reality},
+ abstract = {The increasing availability and diversity of virtual reality (VR) applications highlighted the importance of their usability. Function-oriented VR applications posed new challenges that are not well studied in the literature. Moreover, user feedback becomes readily available thanks to modern software engineering tools, such as app stores and open source platforms. Using Firefox Reality as a case study, we explored the major types of VR usability issues raised in these platforms. We found that 77% of usability feedbacks can be mapped to Nielsen's heuristics while few were mappable to VR-specific heuristics. This result indicates that Nielsen's heuristics could potentially help developers address the usability of this VR application in its early development stage. This work paves the road for exploring tools leveraging the community effort to promote the usability of function-oriented VR applications.}
+} 
+
+
+@inproceedings{Cheng2019,
+ author = {Cheng, Jinghui and Guo, Jin L. C.},
+ title = {Activity-based Analysis of Open Source Software Contributors: Roles and Dynamics},
+ booktitle = {Proceedings of the 12th International Workshop on Cooperative and Human Aspects of Software Engineering},
+ series = {CHASE '19},
+ year = {2019},
+ location = {Montreal, Quebec, Canada},
+ pages = {11--18},
+ numpages = {8},
+ url = {https://doi.org/10.1109/CHASE.2019.00011},
+ doi = {10.1109/CHASE.2019.00011},
+ acmid = {3338722},
+ arxiv = {1903.05277},
+ publisher = {IEEE Press},
+ address = {Piscataway, NJ, USA},
+ keywords = {activity-based analysis, contributor roles, open source community, open source software},
+ abstract = {Contributors to open source software (OSS) communities assume diverse roles to take different responsibilities. One major limitation of the current OSS tools and platforms is that they provide a uniform user interface regardless of the activities performed by the various types of contributors. This paper serves as a non-trivial first step towards resolving this challenge by demonstrating a methodology and establishing knowledge to understand how the contributors' roles and their dynamics, reflected in the activities contributors perform, are exhibited in OSS communities. Based on an analysis of user action data from 29 GitHub projects, we extracted six activities that distinguished four Active roles and five Supporting roles of OSS contributors, as well as patterns in role changes. Through the lens of the Activity Theory, these findings provided rich design guidelines for OSS tools to support diverse contributor roles.}
+}
+
+@ARTICLE{Vierhauser2019,
+author={M. {Vierhauser} and S. {Bayley} and J. {Wyngaard} and W. {Xiong} and J. {Cheng} and J. {Huseman} and R. R. {Lutz} and J. {Cleland-Huang}}, 
+journal={IEEE Transactions on Software Engineering}, 
+title={Interlocking Safety Cases for Unmanned Autonomous Systems in Shared Airspaces}, 
+year={2019}, 
+volume={}, 
+number={}, 
+pages={1-1}, 
+keywords={Safety;Unmanned aerial vehicles;Monitoring;Runtime;Software;Atmospheric modeling;NASA;UAV;Unmanned Autonomous Systems;Safety Assurance Cases;Monitoring}, 
+doi={10.1109/TSE.2019.2907595}, 
+ISSN={}, 
+month={},
+abstract={The growing adoption of unmanned aerial vehicles (UAV) for tasks such as eCommerce, aerial surveillance, and environmental monitoring introduces the need for new safety mechanisms in an increasingly cluttered airspace. In our work we thus emphasize safety issues that emerge at the intersection of infrastructures responsible for controlling the airspace, and the diverse UAVs operating in their space. We build on safety assurance cases (SAC)- a state-of-the-art solution for reasoning about safety - and propose a novel approach based on interlocking SACs. The infrastructure safety case (ISAC) specifies assumptions upon UAV behavior, while each UAV demonstrates compliance to the ISAC by presenting its own (pluggable) safety case (pSAC) which connects to the ISAC through a set of interlock points. To collect information on each UAV we enforce a "trust but monitor" policy, supported by runtime monitoring and an underlying reputation model. We evaluate our approach in three ways: first by developing ISACs for two UAV infrastructures, second by running simulations to evaluate end-to-end effectiveness, and finally via an outdoor field-study with physical UAVs. The results show that interlocking SACs can be effective for identifying, specifying, and monitoring safety-related constraints upon UAVs flying in a controlled airspace.}
+}
+
+@inproceedings{Arya2019,
+ author = {Arya, Deeksha and Wang, Wenting and Guo, Jin L. C. and Cheng, Jinghui},
+ title = {Analysis and Detection of Information Types of Open Source Software Issue Discussions},
+ booktitle = {Proceedings of the 41st International Conference on Software Engineering},
+ series = {ICSE '19},
+ year = {2019},
+ location = {Montreal, Quebec, Canada},
+ pages = {454--464},
+ numpages = {11},
+ url = {https://doi.org/10.1109/ICSE.2019.00058},
+ doi = {10.1109/ICSE.2019.00058},
+ acmid = {3339564},
+ publisher = {IEEE Press},
+ address = {Piscataway, NJ, USA},
+ arxiv = {1902.07093},
+ keywords = {collaborative software engineering, issue discussion analysis, issue tracking system},
+ abstract = {Most modern Issue Tracking Systems (ITSs) for open source software (OSS) projects allow users to add comments to issues. Over time, these comments accumulate into discussion threads embedded with rich information about the software project, which can potentially satisfy the diverse needs of OSS stakeholders. However, discovering and retrieving relevant information from the discussion threads is a challenging task, especially when the discussions are lengthy and the number of issues in ITSs are vast. In this paper, we address this challenge by identifying the information types presented in OSS issue discussions. Through qualitative content analysis of 15 complex issue threads across three projects hosted on GitHub, we uncovered 16 information types and created a labeled corpus containing 4656 sentences. Our investigation of supervised, automated classification techniques indicated that, when prior knowledge about the issue is available, Random Forest can effectively detect most sentence types using conversational features such as the sentence length and its position. When classifying sentences from new issues, Logistic Regression can yield satisfactory performance using textual features for certain information types, while falling short on others. Our work represents a nontrivial first step towards tools and techniques for identifying and obtaining the rich information recorded in the ITSs to support various software engineering activities and to satisfy the diverse needs of OSS stakeholders.}
+}
+
 @inproceedings{Vierhauser2018,
  author = {Vierhauser, Michael and Bayley, Sean and Wyngaard, Jane and Cheng, Jinghui and Xiong, Wandi and Lutz, Robyn and Huseman, Joshua and Cleland-Huang, Jane},
  title = {Interlocking Safety Cases for Unmanned Autonomous Systems in Urban Environments},
