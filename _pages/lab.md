@@ -1,7 +1,7 @@
 ---
 layout: lab
 title: Lab
-display-title: Human-Centered Design (HCD) Lab<img width="100px" style="float:right;" src="../assets/img/logo.png"/>
+display-title: Human-Centered Design (HCD) Lab<img width="150px" style="float:right;" src="../assets/img/logo_notext.png"/>
 permalink: /lab/
 description: 
 ---
