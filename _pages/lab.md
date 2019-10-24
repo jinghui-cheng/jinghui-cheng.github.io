@@ -1,7 +1,7 @@
 ---
 layout: lab
 title: Lab
-display-title: <img src="{{ '/assets/img/logo.png' | prepend: site.baseurl | prepend: site.url }}"/>User-Centered Design (UCD) Lab
+display-title: <img src="../assets/img/logo.png"/>User-Centered Design (UCD) Lab
 permalink: /lab/
 description: 
 ---
