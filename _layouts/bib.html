@@ -26,14 +26,14 @@
       {% for author in entry.author_array %}
         {% if forloop.length == 1 %}
           {% if author.first == "site.scholar.first_name" %}
-            <em>{{author.first}} {{author.last}}</em>
+            {{author.first}} {{author.last}}
           {% else %}
             {{author.first}} {{author.last}}
           {% endif %}
         {% else %}
           {% unless forloop.last %}
             {% if author.first == site.scholar.first_name %}
-              <em>{{author.first}} {{author.last}}</em>,
+              {{author.first}} {{author.last}},
             {% else %}
               {% if site.data.coauthors[author.last] %}
                 <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>, 
