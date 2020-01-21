@@ -6,7 +6,7 @@ permalink: /lab/
 description: 
 ---
 
-We investigate methods, techniques, and tools to support interaction designers conduct user-centered design collaboratively with other stakeholders in various contexts, including serious games, software engineering tools, safety-critical systems, and general-purpose applications. Our research topic includes usability engineering, interaction design patterns, design systems, and other design tools. Our methodology, rooted in both human-computer interaction and empirical software engineering, is fundamentally centered on the human stakeholders of software systems, in particular users, designers, and developers.
+We investigate methods, techniques, and tools to support diverse stakeholders (e.g., designers, users, developers, and domain experts) in engaging in the collaborative user-centered design activities in various contexts, including serious games, software engineering tools, safety-critical systems, and applications involving emerging technologies such as artificial intelligence and mixed reality. Our research topic includes usability engineering, interaction design patterns, design systems, and other design tools. Our methodology, rooted in both human-computer interaction and empirical software engineering, is fundamentally centered on the human stakeholders of software systems.
 
 **Research Keywords**: Human-computer interaction; software engineering; usability engineering; interaction design; design artifact analysis; research methods for design study
 
