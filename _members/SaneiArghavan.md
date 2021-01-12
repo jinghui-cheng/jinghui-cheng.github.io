@@ -2,5 +2,5 @@
 name: Arghavan Sanei
 description: PhD student
 img: /assets/img/arghavan.png
-link: 
+link: https://www.linkedin.com/in/arghavan-sanei-09a06854/
 ---

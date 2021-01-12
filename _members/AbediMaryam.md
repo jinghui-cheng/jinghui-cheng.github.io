@@ -1,6 +1,6 @@
 ---
-name: Isabella Ferreira
+name: Maryam Abedi
 description: PhD student <br> (Co-supervised with <a href="https://mcis.cs.queensu.ca/bram.html" target="_blank">Prof. Bram Adams</a>)
-img: /assets/img/isabella.png
-link: https://www.linkedin.com/in/isabellaferreira/
+img: /assets/img/maryam.png
+link:
 ---
