@@ -3,21 +3,22 @@
     {% for member in site.members %}
     <div class="member">
         <div class="profile">
-            {% if member.link %}
-            <a href="{{ member.link }}" target="_blank">
+            {% if member.img %}
+            <img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" />
+            {% else %}
+            <img src="{{ '/assets/img/nopic.png' | prepend: site.baseurl | prepend: site.url }}"/>
             {% endif %}
-                {% if member.img %}
-                <img src="{{ member.img | prepend: site.baseurl | prepend: site.url }}" />
-                {% else %}
-                <img src="{{ '/assets/img/nopic.png' | prepend: site.baseurl | prepend: site.url }}"/>
+            <span>
+                {% if member.link %}
+                <a href="{{ member.link }}" target="_blank">
                 {% endif %}
-                <span>
-                    <h1>{{ member.name }}</h1>
-                    <p style="text-align:center;">{{ member.description }}</p>
-                </span>
-            {% if member.link %}
-            </a>
-            {% endif %}
+                  <h1>{{ member.name }}</h1>
+                {% if member.link %}
+                </a>
+                {% endif %}
+                <p style="text-align:center;">{{ member.description }}</p>
+            </span>
+
         </div>
     </div>
     {% endfor %}
