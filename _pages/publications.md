@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-display-title: >
+display-title:
   Publications &nbsp; &nbsp;
   <div style="display:inline-block;">
     <a target="_blank" href="https://scholar.google.com/citations?user=ebhZJVEAAAAJ"><img alt="Google Scholar Profile" src="/assets/img/googlescholar.png" height="23px"/></a> &nbsp;
