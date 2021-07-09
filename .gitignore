@@ -2,6 +2,7 @@ _site/
 
 .DS_Store
 .AppleDouble
+.Rhistory
 
 # Thumbnails
 ._*
