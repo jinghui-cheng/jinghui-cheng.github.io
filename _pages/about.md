@@ -23,7 +23,7 @@ description: >
 profile:
   image: profile.png
 
-news: false
+news: true
 social: false
 ---
 
