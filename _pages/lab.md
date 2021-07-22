@@ -10,7 +10,7 @@ We investigate methods, techniques, and tools to support diverse stakeholders (e
 
 <!-- **Research Keywords**: Human-computer interaction; software engineering; usability engineering; interaction design; design artifact analysis; research methods for design study -->
 
-**We are recruiting!!** If you are interested in joining the HCD lab at Polytechnique Montreal, either on one of the projects below or on an awesome idea that you have, please email (1) your CV and (2) a short cover letter explaining your interests to Prof. Jinghui Cheng at jinghui[dot]cheng[at]polymtl[dot]ca.*
+**We are recruiting!!** If you are interested in joining the HCD lab at Polytechnique Montreal, either on one of the projects below or on an awesome idea that you have, please email (1) your CV and (2) a short cover letter explaining your interests to Prof. Jinghui Cheng at jinghui[dot]cheng[at]polymtl[dot]ca.
 
 **Recently funded projects** (*inquiries are welcomed*)
 * [Improving the Usability of Scientific Open Source Software](https://www.polymtl.ca/expertises/en/improving-usability-scientific-open-source-software) (Sloan Foundation)
