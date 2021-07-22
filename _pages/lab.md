@@ -10,6 +10,12 @@ We investigate methods, techniques, and tools to support diverse stakeholders (e
 
 <!-- **Research Keywords**: Human-computer interaction; software engineering; usability engineering; interaction design; design artifact analysis; research methods for design study -->
 
-**We are recruiting!!** If you are interested in joining the HCD lab at Polytechnique Montreal, please email (1) your CV and (2) a short cover letter explaining your interests to Prof. Jinghui Cheng at jinghui[dot]cheng[at]polymtl[dot]ca.*
+**We are recruiting!!** If you are interested in joining the HCD lab at Polytechnique Montreal, either on one of the projects below or on an awesome idea that you have, please email (1) your CV and (2) a short cover letter explaining your interests to Prof. Jinghui Cheng at jinghui[dot]cheng[at]polymtl[dot]ca.*
 
-Recently funded opportunities: (1) [Improving the Usability of Scientific Open Source Software](https://www.polymtl.ca/expertises/en/improving-usability-scientific-open-source-software), (2) [Creative inspiration in UI/UX design leveraging data-driven approaches](https://www.polymtl.ca/expertises/en/creative-inspiration-uiux-design-leveraging-data-driven-approaches), and (3) [User-centered traceability in the DevOps era](https://www.polymtl.ca/expertises/en/user-centered-traceability-devops-era). Inquiries are also welcomed.
+**Recently funded projects** (*inquiries are welcomed*)
+* [Improving the Usability of Scientific Open Source Software](https://www.polymtl.ca/expertises/en/improving-usability-scientific-open-source-software) (Sloan Foundation)
+* [Creative inspiration in UI/UX design leveraging data-driven approaches](https://www.polymtl.ca/expertises/en/creative-inspiration-uiux-design-leveraging-data-driven-approaches) (FRQNT Team)
+* [User-centered traceability in the DevOps era](https://www.polymtl.ca/expertises/en/user-centered-traceability-devops-era) (FRQNT Team)
+* Reducing the risk of chronic pain and unintentional prolonged opioid use after surgery: when technology meets psychology (FRQ AUDACE)
+* Towards a Fully Automated Bilingual Job Recommendation Platform (Mitacs)
+* Collaborative Engineering of Usability Requirements (NSERC Discovery Grant)
