@@ -29,6 +29,8 @@ social: false
 
 My research combines the field of Human-Computer Interaction (HCI) with Software Engineering (SE). My approach is fundamentally human-centered, with an emphasis on exploring technologies that support practitioners who have domain-specific expertise but special information needs, including software engineers, designers, and domain experts. While I am passionate about new technologies, understanding and realizing the ability of these technologies in satisfying the user's needs and adapting to the user's existing mental, behavioral, and social characteristics is most attractive to me.
 
+**I am recruiting PhD and Master's students!!** If you are interested in working with me in the HCD lab at Polytechnique Montreal, please email me (1) your CV and (2) a short cover letter explaining your interests.
+
 <a target="_blank" href="https://scholar.google.com/citations?user=ebhZJVEAAAAJ"><img alt="Google Scholar Profile" src="assets/img/googlescholar.png" height="23px"/></a> &nbsp; &nbsp;
 <a target="_blank" href="https://www.researchgate.net/profile/Jinghui_Cheng"><img alt="ReseachGate Profile" src="assets/img/researchgate.png" height="23px"/></a> &nbsp; &nbsp;
 <a target="_blank" href="http://dblp.uni-trier.de/pers/hd/c/Cheng:Jinghui"><img alt="dblp Profile" src="assets/img/dblp.png" height="23px"/></a> &nbsp; &nbsp;
