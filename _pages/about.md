@@ -31,7 +31,7 @@ My research combines the field of Human-Computer Interaction (HCI) with Software
 
 <!-- **We are seeking a postdoctoral research fellow!!** The Open Source Software Usability (OSS-U) project jointly hosted at McGill University and Polytechnique Montreal is seeking a [postdoctoral research fellow]({{ '/assets/pdf/PostDoc_OSSU.pdf' | prepend: site.baseurl | prepend: site.url }}). Contact us if you are interested! -->
 
-**I am also recruiting PhD and Master's students!!** If you are interested in working with me in the HCD lab, please email me (1) your CV and (2) a short cover letter explaining your interests. Here are some possible projects: [https://bit.ly/2UI43rn](https://bit.ly/2UI43rn).
+**I am recruiting PhD and Master's students!!** If you are interested in working with me in the HCD lab, please email me (1) your CV and (2) a short cover letter explaining your interests. Here are some possible projects: [https://bit.ly/2UI43rn](https://bit.ly/2UI43rn).
 
 <a target="_blank" href="https://scholar.google.com/citations?user=ebhZJVEAAAAJ"><img alt="Google Scholar Profile" src="assets/img/googlescholar.png" height="23px"/></a> &nbsp; &nbsp;
 <a target="_blank" href="https://www.researchgate.net/profile/Jinghui_Cheng"><img alt="ReseachGate Profile" src="assets/img/researchgate.png" height="23px"/></a> &nbsp; &nbsp;
