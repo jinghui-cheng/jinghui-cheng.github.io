@@ -11,7 +11,7 @@ We investigate methods, techniques, and tools to support diverse stakeholders (e
 <!-- **Research Keywords**: Human-computer interaction; software engineering; usability engineering; interaction design; design artifact analysis; research methods for design study -->
 
 **We are recruiting!!**
-- We are seeking a [postdoctoral research fellow for the Open Source Software Usability (OSS-U) project]({{ '/assets/pdf/PostDoc_OSSU.pdf' | prepend: site.baseurl | prepend: site.url }}). Contact us if you are interested!
+<!-- - We are seeking a [postdoctoral research fellow for the Open Source Software Usability (OSS-U) project]({{ '/assets/pdf/PostDoc_OSSU.pdf' | prepend: site.baseurl | prepend: site.url }}). Contact us if you are interested! -->
 - If you are interested in joining the HCD lab as a PhD or Master's student, please email (1) your CV and (2) a short cover letter explaining your interests to Prof. Jinghui Cheng. Here are some possible projects: [https://bit.ly/2UI43rn](https://bit.ly/2UI43rn).
 
 <!-- **Recently funded projects** (*inquiries are welcomed*)

@@ -29,7 +29,7 @@ social: false
 
 My research combines the field of Human-Computer Interaction (HCI) with Software Engineering (SE). My approach is fundamentally human-centered, with an emphasis on exploring technologies that support practitioners who have domain-specific expertise but special information needs, including software engineers, designers, and domain experts. While I am passionate about new technologies, understanding and realizing the ability of these technologies in satisfying the user's needs and adapting to the user's existing mental, behavioral, and social characteristics is most attractive to me.
 
-**We are seeking a postdoctoral research fellow!!** The Open Source Software Usability (OSS-U) project jointly hosted at McGill University and Polytechnique Montreal is seeking a [postdoctoral research fellow]({{ '/assets/pdf/PostDoc_OSSU.pdf' | prepend: site.baseurl | prepend: site.url }}). Contact us if you are interested!
+<!-- **We are seeking a postdoctoral research fellow!!** The Open Source Software Usability (OSS-U) project jointly hosted at McGill University and Polytechnique Montreal is seeking a [postdoctoral research fellow]({{ '/assets/pdf/PostDoc_OSSU.pdf' | prepend: site.baseurl | prepend: site.url }}). Contact us if you are interested! -->
 
 **I am also recruiting PhD and Master's students!!** If you are interested in working with me in the HCD lab, please email me (1) your CV and (2) a short cover letter explaining your interests. Here are some possible projects: [https://bit.ly/2UI43rn](https://bit.ly/2UI43rn).
 
