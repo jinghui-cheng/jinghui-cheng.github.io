@@ -75,6 +75,12 @@
   {% if entry.arxiv %}
     [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
   {% endif %}
+  {% if entry.video %}
+    [<a href="{{ entry.video }}" target="_blank">Video</a>]
+  {% endif %}
+  {% if entry.blog %}
+    [<a href="{{ entry.blog }}" target="_blank">Blog</a>]
+  {% endif %}
   <!-- {% if entry.url %}
     [<a href="{{ entry.url }}" target="_blank">URL</a>]
   {% endif %} -->
