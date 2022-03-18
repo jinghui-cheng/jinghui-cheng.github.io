@@ -1,6 +1,6 @@
 ---
 name: Audrey Labrie
 description: Undergraduate student
-img: /assets/img/audrey.png
+img: /assets/img/member/audrey.png
 link: http://www.audreylab.ca
 ---

@@ -1,6 +1,6 @@
 ---
 name: Yonghan Lin
 description: Summer intern
-img: /assets/img/yonghan.png
+img: /assets/img/member/yonghan.png
 link: https://www.linkedin.com/in/yong-han-lin-01a081189/
 ---

@@ -1,6 +1,6 @@
 ---
 name: Banafsheh Mohajeri
 description: Master's student
-img: /assets/img/banafsheh.png
+img: /assets/img/member/banafsheh.png
 link: 
 ---
