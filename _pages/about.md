@@ -14,7 +14,7 @@ display-title: >
   </div>
 
 description: >
-  Assistant Professor<br>
+  Associate Professor<br>
   <a href="http://www.polymtl.ca/gigl/" target="_blank">Department of Software and Computer Engineering</a><br>
   <a href="http://www.polymtl.ca/" target="_blank">Polytechnique Montréal</a><br>
   <i class="fa fa-briefcase"></i> Pavillon Lassonde M-4117<br>
