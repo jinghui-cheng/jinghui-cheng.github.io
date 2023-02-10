@@ -24,8 +24,6 @@ orcid_id: # your ORCID ID
 contact_note: >
   # You can even add a little note about which of these is the best way to reach you.
 
-google_analytics: UA-73284202-1 # UA-73284202-1 # out your google-analytics code
-
 # # -----------------------------------------------------------------------------
 # # Blog
 # # -----------------------------------------------------------------------------
