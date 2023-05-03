@@ -1,6 +1,6 @@
 ---
 name: Charles Zhang
-description: Summer intern
+description: Research intern
 img: /assets/img/member/charles.png
 link: https://www.linkedin.com/in/charles-xinyuan-zhang/
 ---

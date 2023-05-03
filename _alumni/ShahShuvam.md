@@ -1,6 +1,6 @@
 ---
 name: Shuvam Shah
-description: Summer intern
+description: Research intern
 img: /assets/img/member/shuvam.png
 link: https://shvms.github.io
 ---
