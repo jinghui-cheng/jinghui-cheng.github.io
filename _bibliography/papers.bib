@@ -1,6 +1,50 @@
 ---
 ---
 
+@article{Ferreira2024,
+title = {Incivility detection in open source code review and issue discussions},
+journal = {Journal of Systems and Software},
+volume = {209},
+pages = {111935},
+year = {2024},
+issn = {0164-1212},
+doi = {https://doi.org/10.1016/j.jss.2023.111935},
+url = {https://www.sciencedirect.com/science/article/pii/S0164121223003308},
+author = {Isabella Ferreira and Ahlaam Rafiq and Jinghui Cheng},
+keywords = {Incivility, Code review, Github issues, Open source, Bert, Machine learning},
+abstract = {Given the democratic nature of open source development, code review and issue discussions may be uncivil. Incivility, defined as features of discussion that convey an unnecessarily disrespectful tone, can have negative consequences to open source communities. To prevent or minimize these negative consequences, open source platforms have included mechanisms for removing uncivil language from the discussions. However, such approaches require manual inspection, which can be overwhelming given the large number of discussions. To help open source communities deal with this problem, in this paper, we aim to compare six classical machine learning models with BERT to detect incivility in open source code review and issue discussions. Furthermore, we assess if adding contextual information in the previous email/comment improves the models’ performance and how well the models perform in a cross-platform setting. We found that BERT performs better than classical machine learning models, with a best F1-score of 0.95. Furthermore, classical machine learning models tend to underperform to detect tone-bearing and civil discussions. Our results show that adding the previous email/comment to BERT did not improve its performance and that none of the analyzed classifiers had an outstanding performance in a cross-platform setting. Finally, we provide insights into the tones that the classifiers misclassify and lessons learned for using automated techniques in incivility detection. Editor’s note: Open Science material was validated by the Journal of Systems and Software Open Science Board.},
+arxiv = {2206.13429}
+}
+
+@article{Gilmer2023,
+author = {Gilmer, Saskia and Bhat, Avinash and Shah, Shuvam and Cherry, Kevin and Cheng, Jinghui and Guo, Jin L.C.},
+title = {SUMMIT: Scaffolding Open Source Software Issue Discussion Through Summarization},
+year = {2023},
+issue_date = {October 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {7},
+number = {CSCW2},
+url = {https://doi.org/10.1145/3610088},
+doi = {10.1145/3610088},
+abstract = {Issue Tracking Systems (ITS) often support commenting on software issues, which creates a space for discussions centered around bug fixes and improvements to the software. For Open Source Software (OSS) projects, issue discussions serve as a crucial collaboration mechanism for diverse stakeholders. However, these discussions can become lengthy and entangled, making it hard to find relevant information and make further contributions. In this work, we study the use of summarization to aid users in collaboratively making sense of OSS issue discussion threads. Through an empirical investigation, we reveal a complex picture of how summarization is used by issue users in practice as a strategy to help develop and manage their discussions. Grounded on the different objectives served by the summaries and the outcome of our formative study with OSS stakeholders, we identified a set of guidelines to inform the design of collaborative summarization tools for OSS issue discussions. We then developed SUMMIT, a tool that allows issue users to collectively construct summaries of different types of information discussed, as well as a set of comments representing continuous conversations within the thread. To alleviate the manual effort involved, SUMMIT uses techniques that automatically detect information types and summarize texts to facilitate the generation of these summaries. A lab user study indicates that, as the users of SUMMIT, OSS stakeholders adopted different strategies to acquire information on issue threads. Furthermore, different features of SUMMIT effectively lowered the perceived difficulty of locating information from issue threads and enabled the users to prioritize their effort. Overall, our findings demonstrated the potential of SUMMIT, and the corresponding design guidelines, in supporting users to acquire information from lengthy discussions in ITSs. Our work sheds light on key design considerations and features when exploring crowd-based and machine-learning-enabled instruments for asynchronous collaboration on complex tasks such as OSS development.},
+journal = {Proc. ACM Hum.-Comput. Interact.},
+month = {oct},
+articleno = {297},
+numpages = {27},
+keywords = {issue tracking systems, open source software, summarization tools},
+arxiv = {2308.02780}
+}
+
+@inproceedings{Sobolevsky2023,
+      title={GUILGET: GUI Layout GEneration with Transformer}, 
+      author={Andrey Sobolevsky and Guillaume-Alexandre Bilodeau and Jinghui Cheng and Jin L. C. Guo},
+      year={2023},
+      abstract = {Sketching out Graphical User Interface (GUI) layout is part of the pipeline of designing a GUI and a crucial task for the success of a software application. Arranging all components inside a GUI layout manually is a time-consuming task. In order to assist designers, we developed a method named GUILGET to automatically generate GUI layouts from positional constraints represented as GUI arrangement graphs (GUI-AGs). The goal is to support the initial step of GUI design by producing realistic and diverse GUI layouts. The existing image layout generation techniques often cannot incorporate GUI design constraints. Thus, GUILGET needs to adapt existing techniques to generate GUI layouts that obey to constraints specific to GUI designs. GUILGET is based on transformers in order to capture the semantic in relationships between elements from GUI-AG. Moreover, the model learns constraints through the minimization of losses responsible for placing each component inside its parent layout, for not letting components overlap if they are inside the same parent, and for component alignment. Our experiments, which are conducted on the CLAY dataset, reveal that our model has the best understanding of relationships from GUI-AG and has the best performances in most of evaluation metrics. Therefore, our work contributes to improved GUI layout generation by proposing a novel method that effectively accounts for the constraints on GUI elements and paves the road for a more efficient GUI design pipeline.},
+      booktitle = {Proceedings of the 36th Canadian Conference on Artificial Intelligence},
+      arxiv={2304.09012}
+}
+
 @article{Rahman2023,
 abstract = {Nowadays, intelligent systems and services are getting increasingly popular as they provide data-driven solutions to diverse real-world problems, thanks to recent breakthroughs in artificial intelligence (AI) and machine learning (ML). However, machine learning meets software engineering not only with promising potentials but also with some inherent challenges. Despite some recent research efforts, we still do not have a clear understanding of the challenges of developing ML-based applications and the current industry practices. Moreover, it is unclear where software engineering researchers should focus their efforts to better support ML application developers. In this paper, we report about a survey that aimed to understand the challenges and best practices of ML application development. We synthesize the results obtained from 80 practitioners (with diverse skills, experience, and application domains) into 17 findings outlining challenges and best practices for ML application development. Practitioners involved in the development of ML-based software systems can leverage the summarized best practices to improve the quality of their system. We hope that the reported challenges will inform the research community about topics that need to be investigated to improve the engineering process and the quality of ML-based applications.},
 author = {Rahman, Md Saidur and Khomh, Foutse and Hamidi, Alaleh and Cheng, Jinghui and Antoniol, Giuliano and Washizaki, Hironori},
@@ -11,7 +55,7 @@ doi = {10.1007/s11219-023-09621-9},
 id = {Rahman2023},
 isbn = {1573-1367},
 journal = {Software Quality Journal},
-title = {Machine learning application development: practitioners'insights},
+title = {Machine learning application development: practitioners' insights},
 url = {https://doi.org/10.1007/s11219-023-09621-9},
 year = {2023},
 bdsk-url-1 = {https://doi.org/10.1007/s11219-023-09621-9},

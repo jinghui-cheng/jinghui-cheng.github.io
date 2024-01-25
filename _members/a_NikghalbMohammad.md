@@ -1,6 +1,6 @@
 ---
 name: Mohammad Nikghalb (Nik)
-description: Master's student
+description: PhD student
 img: /assets/img/member/nik.png
 link: https://www.linkedin.com/in/nikghalb/
 ---
