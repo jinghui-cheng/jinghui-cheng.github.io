@@ -91,7 +91,7 @@ plugins:
     - jekyll-email-protect
     - jekyll-paginate
     - jemoji
-    # - jekyll/scholar
+    - jekyll/scholar
 
 # Jekyll-Scholar
 scholar:
