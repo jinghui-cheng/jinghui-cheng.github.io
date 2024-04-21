@@ -90,8 +90,8 @@ exclude: [vendor]
 plugins:
     - jekyll-email-protect
     - jekyll-paginate
-    - jekyll/scholar
     - jemoji
+    # - jekyll/scholar
 
 # Jekyll-Scholar
 scholar:
