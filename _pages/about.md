@@ -31,6 +31,6 @@ My research combines the field of Human-Computer Interaction (HCI) with Software
 
 **I am recruiting PhD and Master's students!!** If you are interested in working with me in the HCD lab, please email me (1) your CV and (2) a short cover letter explaining your interests. <!--Here are some possible projects: [https://bit.ly/2UI43rn](https://bit.ly/2UI43rn).-->
 
-<a target="_blank" href="https://scholar.google.com/citations?user=ebhZJVEAAAAJ"><img alt="Google Scholar Profile" src="assets/img/googlescholar.png" height="23px"/></a> &nbsp; &nbsp;
+<a target="_blank" href="https://scholar.google.com/citations?hl=en&user=ebhZJVEAAAAJ&view_op=list_works&sortby=pubdate"><img alt="Google Scholar Profile" src="assets/img/googlescholar.png" height="23px"/></a> &nbsp; &nbsp;
 <a target="_blank" href="https://www.researchgate.net/profile/Jinghui_Cheng"><img alt="ReseachGate Profile" src="assets/img/researchgate.png" height="23px"/></a> &nbsp; &nbsp;
 <a target="_blank" href="http://dblp.uni-trier.de/pers/hd/c/Cheng:Jinghui"><img alt="dblp Profile" src="assets/img/dblp.png" height="23px"/></a> &nbsp; &nbsp;
