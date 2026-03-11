@@ -25,12 +25,30 @@ news: false
 social: false
 ---
 
-My research combines the field of Human-Computer Interaction (HCI) with Software Engineering (SE). My approach is fundamentally human-centered, with an emphasis on exploring technologies that support practitioners who have domain-specific expertise but special information needs, including software engineers, designers, and domain experts. While I am passionate about new technologies, understanding and realizing the ability of these technologies in satisfying the user's needs and adapting to the user's existing mental, behavioral, and social characteristics is most attractive to me.
+<div style="max-width:820px; margin:60px auto; padding:28px 32px; background:#f8f9fa; border-left:6px solid #0d6efd; border-radius:6px; font-size:1.15em; line-height:1.6; box-shadow:0 2px 10px rgba(0,0,0,0.08); font-family:Arial, Helvetica, sans-serif; text-align:left;">
 
-<!-- **We are seeking a postdoctoral research fellow!!** The Open Source Software Usability (OSS-U) project jointly hosted at McGill University and Polytechnique Montreal is seeking a [postdoctoral research fellow]({{ '/assets/pdf/PostDoc_OSSU.pdf' | prepend: site.baseurl | prepend: site.url }}). Contact us if you are interested! -->
+  <p style="margin-top:0;">
+    <strong>Notice:</strong>
+  </p>
 
-**I am recruiting PhD and Master's students!!** If you are interested in working with me in the HCD lab, please email me (1) your CV and (2) a short cover letter explaining your interests. <!--Here are some possible projects: [https://bit.ly/2UI43rn](https://bit.ly/2UI43rn).-->
+  <p>
+    This website is no longer being updated and will be removed. All information about my research, publications, and current projects is now available on the HCDLab website.
+  </p>
 
-<a target="_blank" href="https://scholar.google.com/citations?hl=en&user=ebhZJVEAAAAJ&view_op=list_works&sortby=pubdate"><img alt="Google Scholar Profile" src="assets/img/googlescholar.png" height="23px"/></a> &nbsp; &nbsp;
-<a target="_blank" href="https://www.researchgate.net/profile/Jinghui_Cheng"><img alt="ReseachGate Profile" src="assets/img/researchgate.png" height="23px"/></a> &nbsp; &nbsp;
-<a target="_blank" href="http://dblp.uni-trier.de/pers/hd/c/Cheng:Jinghui"><img alt="dblp Profile" src="assets/img/dblp.png" height="23px"/></a> &nbsp; &nbsp;
+  <div style="margin:25px 0; display:flex; gap:12px; flex-wrap:wrap;">
+    <a href="https://hcdlab.polymtl.ca/team/current/jinghui-cheng/"
+       style="flex:1 1 auto; min-width:140px; padding:12px 20px; background:#0d6efd; color:#ffffff; font-weight:600; text-decoration:none; border-radius:5px; text-align:center;">
+       Visit My Page There
+    </a>
+
+    <a href="https://hcdlab.polymtl.ca/"
+       style="flex:1 1 auto; min-width:140px; padding:12px 20px; background:#198754; color:#ffffff; font-weight:600; text-decoration:none; border-radius:5px; text-align:center;">
+       Visit the HCDLab Website
+    </a>
+  </div>
+
+  <p style="margin-bottom:0; color:#555;">
+    Please update your bookmarks.
+  </p>
+
+</div>
