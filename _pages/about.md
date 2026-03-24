@@ -32,7 +32,7 @@ social: false
   </p>
 
   <p>
-    All information about my research, publications, and current projects is now available on the HCDLab website. This website is no longer being updated and will be removed soon.
+    My website is now available at a new URL, under the website of our lab! Please update your bookmarks. The current site you are on now is no longer being updated and will be removed soon.
   </p>
 
   <div style="margin:25px 0; display:flex; gap:12px; flex-wrap:wrap;">
